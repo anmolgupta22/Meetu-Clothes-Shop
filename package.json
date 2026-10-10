@@ -1,0 +1,31 @@
+{
+  "name": "meetu-clothes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3001",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3001",
+    "test:e2e": "node tests/browser.cjs"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.2.8",
+    "@fontsource/manrope": "^5.2.8",
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.1",
+    "lucide-react": "1.55.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-router-dom": "7.18.4",
+    "three": "^0.185.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "vite": "8.3.4"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
